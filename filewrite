@@ -1,0 +1,30 @@
+#include <iostream>
+//#include "functions.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+#include <fstream>
+
+// I don't think I can do write file stuff
+
+
+
+int _writefile(){
+    ofstream Chartext ("Character.txt");
+    Chartext << "Hello File!";
+    Chartext.close();
+    string _opf;
+    ifstream Chartext ("Character.txt");
+     while (getline (Chartext, _opf))
+    {
+      cout << _opf;
+    }
+
+  MyFileRead.close ();
+
+  return 0;
+}
+
+int writerun(){
+    _writefile();
+}
