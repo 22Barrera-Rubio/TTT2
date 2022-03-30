@@ -18,7 +18,7 @@ int CharRun();
 int editor();
 int numberer();
 int flip();
-
+//int writerun();
 int _mem();
 
 // note shove the main functions into here, as they need to be //defined in .h BEFORE being used in the main.cpp
@@ -29,16 +29,18 @@ class DStu{
 public:
   int number;
   int faces;
-};   
+}; 
+/*
 class Charac{
 public:
 string name;
 int hp;
 int mp;
 //Charac() : name{"This"}, hp{0}, hp{0} {}
-
+*/  
+// switched to array thing
  
-}; 
+
 class Numie{
 public:
 int nmin,nmax;

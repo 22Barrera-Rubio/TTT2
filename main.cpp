@@ -68,6 +68,9 @@ switch(choice){
     case 5:
     flip();
     break;
+   // case 6:
+  //  writerun();
+  //  break;
   
   default:
     cout << "\rNot supported at all         " << endl;
